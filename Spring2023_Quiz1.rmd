@@ -1,0 +1,103 @@
+---
+title: "Quiz 01"
+subtitle: "CS3172-1, Spring 2023, Effat University"
+author: ""
+output: pdf_document
+---
+
+# Packages
+
+```{r load-packages, message = FALSE, warning = FALSE}
+library(tidyverse) 
+library(scales)
+``` 
+
+# Data
+
+```{r read-in-data, message = FALSE}
+cas <- read_rds("data/canada_survey.rds")
+```
+
+# Tasks
+
+## Task 1
+
+```{r}
+
+
+```
+
+```{r}
+
+
+```
+
+## Task 2
+
+```{r}
+
+
+
+
+```
+
+```{r}
+
+
+
+
+```
+
+## Task 3
+
+```{r}
+
+
+
+
+```
+
+- Provide the answer to the theoretical questions here
+
+## Task 4
+
+```{r}
+
+
+
+```
+
+## Task 5
+
+```{r}
+
+
+
+
+
+```
+
+## Task 6
+
+```{r message=FALSE}
+
+
+
+
+
+```
+
+## Task 7
+
+```{r fig.width=7, fig.height=6, message=FALSE}
+
+
+
+
+```
+
+## Task 8
+
+
+
+
