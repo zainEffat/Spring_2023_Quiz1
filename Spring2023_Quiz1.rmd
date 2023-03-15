@@ -25,21 +25,32 @@ lego <- read_csv("data/lego.csv")
 # Exercise 1
 
 ```{r}
+lego_filtered <- lego %>%
+filter(!is.na(pieces)) %>%
+filter(pieces != 0) %>%
+filter(!is.na(retail_price)) %>%
+filter(retail_price != 0) %>%
+filter(!is.na(year))
 
 ```
 
 # Exercise 2
 
 ```{r}
-
+lego_filtered %>%
+arrange(desc(retail_price)) %>%
+slice(1:3)%>%
+print(width = Inf)
 ```
 
 Describe the three most expensive sets here. 
+the most expensive 3 lego sets are Millennium Falcon , Connections Kit and Death Star.
+
 
 # Exercise 3
 
 ```{r}
-
+mutate( lego_filtered, "price_per_piece")
 ```
 
 # Exercise 4
