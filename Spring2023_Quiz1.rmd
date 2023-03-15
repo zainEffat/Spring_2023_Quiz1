@@ -1,103 +1,71 @@
 ---
-title: "Quiz 01"
-subtitle: "CS3172-1, Spring 2023, Effat University"
+title: "Quiz 01: Data wrangling"
+Date: "Wenesday, March 15"
 author: ""
-output: pdf_document
+date: ""
+editor_options: 
+  chunk_output_type: console
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 # Packages
 
-```{r load-packages, message = FALSE, warning = FALSE}
-library(tidyverse) 
-library(scales)
-``` 
+```{r load-packages, message = FALSE}
+library(tidyverse)
+```
 
 # Data
 
-```{r read-in-data, message = FALSE}
-cas <- read_rds("data/canada_survey.rds")
+```{r load-data, message = FALSE}
+lego <- read_csv("data/lego.csv")
 ```
 
-# Tasks
-
-## Task 1
+# Exercise 1
 
 ```{r}
 
-
 ```
+
+# Exercise 2
 
 ```{r}
 
-
 ```
 
-## Task 2
+Describe the three most expensive sets here. 
+
+# Exercise 3
 
 ```{r}
 
-
-
-
 ```
+
+# Exercise 4
 
 ```{r}
 
-
-
-
 ```
 
-## Task 3
+Describe what you notice about the sets with the highest price per piece. 
+
+# Exercise 5
 
 ```{r}
 
-
-
-
 ```
 
-- Provide the answer to the theoretical questions here
-
-## Task 4
+# Exercise 6
 
 ```{r}
 
-
-
 ```
 
-## Task 5
+# Exercise 7
 
 ```{r}
 
-
-
-
-
 ```
 
-## Task 6
-
-```{r message=FALSE}
-
-
-
-
-
-```
-
-## Task 7
-
-```{r fig.width=7, fig.height=6, message=FALSE}
-
-
-
-
-```
-
-## Task 8
-
-
-
-
+Comment on what you observe in the plot above. 
